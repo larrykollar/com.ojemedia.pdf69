@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+
+<font-mappings>
+  <font-table>
+
+    <!-- Backwards compatibility aliases -->
+    <aliases>
+      <alias name="serif">Serif</alias>
+    </aliases>
+    <aliases>
+      <alias name="sans-serif">Sans</alias>
+    </aliases>
+    <aliases>
+      <alias name="monospace">Monospaced</alias>
+    </aliases>
+    <aliases>
+      <alias name="Helvetica">Normal</alias>
+    </aliases>
+    <aliases>
+      <alias name="Courier">Monospaced</alias>
+    </aliases>
+
+    <logical-font name="Sans">
+      <physical-font char-set="default">
+        <font-face>Noto Serif, TeXGyreBonum, Bookman</font-face>
+      </physical-font>
+      <physical-font char-set="Simplified Chinese">
+        <font-face>AdobeSongStd-Light, Arial Unicode MS, Batang, SimSun</font-face>
+      </physical-font>
+      <physical-font char-set="Japanese">
+        <font-face>KozMinProVI-Regular, Arial Unicode MS, Batang</font-face>
+      </physical-font>
+      <physical-font char-set="Korean">
+        <font-face>AdobeMyungjoStd-Medium, Arial Unicode MS, Batang</font-face>
+      </physical-font>
+      <physical-font char-set="Symbols">
+        <font-face>ZapfDingbats</font-face>
+      </physical-font>
+      <physical-font char-set="SubmenuSymbol">
+        <font-face>ZapfDingbats</font-face>
+      </physical-font>
+      <physical-font char-set="SymbolsSuperscript">
+        <font-face>Noto Serif, TeXGyreBonum, Helvetica, Arial Unicode MS</font-face>
+        <baseline-shift>20%</baseline-shift>
+        <override-size>smaller</override-size>
+      </physical-font>
+    </logical-font>
+
+    <logical-font name="Serif">
+      <physical-font char-set="default">
+        <font-face>Noto Serif, TeXGyreBonum, Bookman</font-face>
+      </physical-font>
+      <physical-font char-set="Simplified Chinese">
+        <font-face>AdobeSongStd-Light, Arial Unicode MS, Batang, SimSun</font-face>
+      </physical-font>
+      <physical-font char-set="Japanese">
+        <font-face>KozMinProVI-Regular, Arial Unicode MS, Batang</font-face>
+      </physical-font>
+      <physical-font char-set="Korean">
+        <font-face>AdobeMyungjoStd-Medium, Arial Unicode MS, Batang</font-face>
+      </physical-font>
+      <physical-font char-set="Symbols">
+        <font-face>ZapfDingbats</font-face>
+      </physical-font>
+      <physical-font char-set="SubmenuSymbol">
+        <font-face>ZapfDingbats</font-face>
+      </physical-font>
+      <physical-font char-set="SymbolsSuperscript">
+        <font-face>Noto Serif, TeXGyreBonum, Times New Roman, Times, Arial Unicode MS, Tahoma, Batang</font-face>
+        <baseline-shift>20%</baseline-shift>
+        <override-size>smaller</override-size>
+      </physical-font>
+    </logical-font>
+
+    <logical-font name="Monospaced">
+      <physical-font char-set="default">
+        <font-face>Anka/Coder Narrow</font-face>
+        <!-- font-face>Inconsolata, Courier New, Courier, Arial Unicode MS, Tahoma, Batang, SimSun</font-face -->
+      </physical-font>
+      <physical-font char-set="Simplified Chinese">
+        <font-face>AdobeSongStd-Light, Arial Unicode MS, Batang, SimSun</font-face>
+      </physical-font>
+      <physical-font char-set="Japanese">
+        <font-face>KozMinProVI-Regular, Arial Unicode MS, Batang</font-face>
+      </physical-font>
+      <physical-font char-set="Korean">
+        <font-face>AdobeMyungjoStd-Medium, Arial Unicode MS, Batang</font-face>
+      </physical-font>
+      <physical-font char-set="Symbols">
+        <font-face>ZapfDingbats</font-face>
+      </physical-font>
+      <physical-font char-set="SymbolsSuperscript">
+        <font-face>Courier New, Courier, Arial Unicode MS, Tahoma, Batang</font-face>
+        <baseline-shift>20%</baseline-shift>
+        <override-size>smaller</override-size>
+      </physical-font>
+    </logical-font>
+  </font-table>
+
+</font-mappings>

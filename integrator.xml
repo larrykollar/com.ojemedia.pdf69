@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project name="com.ojemedia.pdf69">
+  <target name="dita2pdf69.init">
+    <property name="customization.dir" location="${dita.plugin.com.ojemedia.pdf69.dir}/cfg"/>
+    <property file="${customization.dir}/build.properties"/>
+  </target>
+
+  <target name="dita2pdf69" depends="dita2pdf69.init, dita2pdf2"/>
+</project>

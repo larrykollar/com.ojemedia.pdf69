@@ -16,7 +16,7 @@ Clone the repository, then copy it into the `plugins` directory
 of your DITA-OT installation.
 To try it out:
 
-    dita --input=yourmap.ditamap --output=pdf69
+    dita --input=yourmap.ditamap --format=pdf69
 
 ## Customizing
 

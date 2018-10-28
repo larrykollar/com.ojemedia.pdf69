@@ -113,4 +113,9 @@
         </fo:static-content>
     </xsl:template>
 
+    <!-- Line break processing. LwDITA converts MDITA/HDITA line breaks
+         into a <?linebreak?> processing instruction. A blank block is all we need. -->
+    <xsl:template match="processing-instruction('linebreak')">
+      <fo:block/>
+    </xsl:template>
 </xsl:stylesheet>
